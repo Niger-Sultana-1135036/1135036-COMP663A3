@@ -26,14 +26,14 @@ binom
 time
 scipy (specifically scipy.stats.binom in Task 2 and scipy.spatial.distance in Task 4), pulled directly from the actual imports in the notebook, not from memory.
 
-### How to run this notebook
+### How to run this notebook:
 
 **Environment.** Python 3.14, with:
 
 - `numpy`, `pandas`, `matplotlib`- data handling and plotting (all tasks)
 - `scipy`, specifically `scipy.stats.binom` (Task 2, constraint-restrictiveness check) and `scipy.spatial.distance.pdist`/`squareform` (Task 4, front-spacing metric)
 
-No other packages, no GPU, no internet access are required. A full top-to-bottom run takes roughly 1–2 minutes on a standard laptop.
+No other packages, no GPU.
 
 **Data.** `COMP663_Assignment3_PlanningData_2000.csv` must sit in the **data folder** as this notebook. No other input files are needed.
 
